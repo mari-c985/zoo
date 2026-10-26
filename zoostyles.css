@@ -1,0 +1,100 @@
+body {
+    background-color: #67372B;
+    font-family: Helvetica, sans-serif;
+}
+
+/*text tag*/
+h1 {
+    color: #67372B;
+    font-family: Helvetica, sans-serif;
+    font-size: 72px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #200D1E;
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+}
+
+h3 {
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+    color: #67372B;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #67372B;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/*main div*/
+#main {
+    margin-left: 170px; 
+}
+
+/*footer div*/
+#footer {
+    background-color: #fff;
+    border-top: 4px solid #5FAC4D;
+    font-size: 13px;
+    padding: 10px;
+}
+
+/*?????????????*/
+
+/*menu div*/
+#menu {
+    width: 150px;
+    float: left;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none; 
+}
+
+#menu li { 
+    padding: 5px;
+    margin: 10px, 0px;
+    background-color: #5FAC4D;
+    border: 1px solid #67372B;
+}
+
+a:link, a:visited {
+    color: #44E74F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #5FAC4D;
+    text-decoration: underline;
+}
+
+#container {
+width: 800px;
+margin-left: auto; 
+margin-right: auto;
+padding-right: 20px;
+padding-left: 20px;
+border-left: solid 3px #5FAC4D;
+border-right: solid 3px #5FAC4D;
+background-color: #FDF3D9;
+}
+
+/*the class style*/
+.rightfloat {
+    float: right;
+    border: 2px solid color #5FAC4D;
+    margin: 7px;
+    padding: 2px;
+}
